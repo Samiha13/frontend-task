@@ -1,0 +1,291 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&family=Lato:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body{
+  
+    padding: 24px 15px;
+    justify-content: center;
+    align-items: center;
+    
+   
+  
+}
+
+/*  Header CSS  */
+
+.header-area{
+  
+    height: 80px;
+    position: relative;
+    margin-bottom: 15px;
+   
+   
+}
+
+.header{
+
+    width: 1170px;
+    height: 80px;
+    position: absolute; 
+    background: #111111; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+
+.logo{
+    width: 117px;
+    height: 30px;
+    margin: 25px 40px;
+}
+
+.logo a{
+    color: #45E580;
+}
+
+.menu{
+
+    display: flex;
+    align-items: flex-start;
+    gap: 42px;
+    
+}
+
+.menu a{
+    color: #FFF;
+    text-align: center;
+    font-family: Archivo;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+    text-transform: capitalize;
+    flex-direction: row wrap;
+
+}
+
+.btn-border {
+
+    display: inline-flex;
+    padding: 16px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background:  #BBB2CE;
+    color: #111111;
+    font-size: 22px;
+    font-family: Archivo;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-transform: capitalize;
+    margin: 12px;
+}
+
+
+
+/*  Hero CSS  */
+
+.hero-area{
+
+}
+.hero{
+
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    flex-flow: row wrap;
+
+}
+.hero-content{
+   
+    width: 628px;
+    height: 757px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background:  #E4B976;
+   
+}
+
+.hero-content h1{
+    color:  #111;
+    font-family: Archivo;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 124px; 
+    margin: 75px 38px 20px 40px;
+
+}
+
+.hero-content p{
+    width: 576px;
+    color:  rgba(17, 17, 17, 0.90);
+    font-family: Archivo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    margin: 20px 44px 0 40px;
+    
+}
+
+.hero_btn{
+    display: inline-flex;
+    padding: 20px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px solid  #111;
+    color: #111;
+    text-align: center;    
+    font-family: Archivo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-left: 40px;
+    margin-top: 50px;
+    }
+
+
+.btn{
+
+    color:  rgba(17, 17, 17, 0.90);
+    font-family: Archivo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 17px 40px 0;
+}
+
+
+.counter{
+    display: flex;
+    width: 600px;
+    gap: 4px;
+    justify-content: space-between;
+    flex-flow: row wrap;
+ 
+}
+
+.single-count {
+    width: 156px;
+    height: 104px;
+    margin: 49px 0  0 6px;
+    text-align: right;
+}
+
+.single-count h3{
+
+    color: #111;
+    font-family: Archivo;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;  
+    margin-left: 40px;
+    
+}
+
+.single-count span{
+    color:  rgba(17, 17, 17, 0.90);
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}    
+
+
+.hero-img{
+    position: relative;
+
+}
+
+.hero-img img{
+
+    width: 527px;
+    height: 757px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-left: 15px;
+    
+   
+ 
+
+}
+
+.arrow{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    margin:40px 40px 0 0;
+  
+  
+}
+
+
+.left-arrow{
+   
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    flex-shrink: 0;
+    border: 2px solid #111;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.right-arrow{
+    
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    flex-shrink: 0;
+    border: 2px solid #111;
+    text-align: center;
+    border-radius: 50%;
+    background: #111;
+    color: #FFF;
+
+}
+

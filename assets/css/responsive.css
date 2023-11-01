@@ -1,0 +1,329 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+
+    .header {
+        width: 100%;
+        left: 0px;
+      
+    }
+
+    .btn-border {
+       
+        font-size: 18px;
+      
+    }
+
+    .hero-content {
+        width: 500px;
+        height: 700px;
+     
+    }
+
+    .hero-content h1 {
+    
+        font-size: 58px;
+        line-height: 66px;
+      
+    }
+
+    .hero-content p {
+        width: 450px;
+        font-size: 20px;
+        line-height: 28px;
+        
+    }
+
+    .hero_btn {
+
+        padding: 16px 20px;
+        font-size: 20px;
+      
+    }
+
+    .counter {
+      
+        width: 480px;
+        gap: 2px;
+       
+    }
+
+    .single-count {
+
+       width: 102px;
+        margin: 49px 0 0 30px;
+    }
+
+
+    .single-count h3 {
+      
+        font-size: 40px;
+        line-height: 48px;
+        margin-left: 18px;
+    }
+
+    .single-count span {
+       
+        font-size: 13px;
+        line-height: 0px;
+        
+    }
+
+
+    .hero-img {
+        
+        margin-right: 15px;
+    }
+
+    .hero-img img {
+        width: 440px;
+        height: 700px;
+       
+    }
+
+    .left-arrow , .right-arrow{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+   
+    }
+
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .container{
+        width: 750px;
+    }
+
+    .header {
+        width: 100%;
+        left: 0px;
+       
+    }
+
+    .logo {
+        width: 80px;
+      
+    }
+
+    .btn-border {
+
+        padding: 10px 20px;
+        font-size: 16px;
+       
+    }
+
+     
+
+    .hero-content h1 {
+     
+        font-size: 38px;
+        line-height: 46px;
+       
+    }
+
+    .hero-content p {
+        width: 300px;
+        font-size: 16px;
+        line-height: 24px;
+      
+    }
+
+    .hero-content {
+        width: 403px;
+        
+      
+    }
+
+    .hero_btn {
+      
+        padding: 15px 20px;
+        font-size: 16px;
+      
+    }
+
+    .btn {
+     
+        font-size: 16px;
+       
+    }
+
+    .counter {
+      
+        width: 403px;
+        gap: 2px;
+       
+    }
+
+    .single-count {
+        width: 125px;
+        margin: 49px 0 0 8px;
+        text-align: center;
+    }
+
+    .single-count h3 {
+     
+        font-size: 30px;
+        margin-left: 0px;
+    }
+
+    .single-count span {
+      
+        font-size: 14px;
+       
+        
+    }
+
+    .hero-img img {
+        width: 332px;
+      
+       
+    }
+
+    .left-arrow , .right-arrow {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+     
+    }
+
+
+
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px) {
+
+    .container{
+        width: 350px;
+    }
+
+    .header {
+        
+            width: 100%;
+            height: 196px;
+            left: 0;
+            right: 0;
+            flex-flow: column;
+        
+       
+    }
+
+    .logo {
+        width: 50px;
+        
+       
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .menu a {
+       
+        font-size: 14px;
+        
+    }
+
+
+    .btn-border {
+
+        padding: 8px 10px;
+        font-size: 14px;
+        margin: 44px;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-top: 125px;
+
+    }
+
+    .hero-content h1 {
+       
+        font-size: 35px;
+        line-height: 43px;
+       
+    }
+
+    .hero-content p {
+        width: 279px;
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+
+    .hero_btn {
+      
+        padding: 10px 12px;
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+
+    .btn {
+        color: rgba(17, 17, 17, 0.90);
+        font-family: Archivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 17px 20px 0;
+    }
+
+    .single-count h3 {
+        
+        font-size: 40px;
+        line-height: 48px;
+      
+    }
+
+    .counter {
+
+        width: 380px;
+       
+    }
+    .single-count {
+     
+        margin: 18px 0px 0 80px;
+        text-align: center;
+        
+    }
+
+    .single-count span {
+       
+        margin-left: 33px;
+    }
+
+
+    .hero-img img {
+       
+        width: 100%;
+        margin: 15px 0 0 0 ;
+    }
+
+    .left-arrow , .right-arrow {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+       
+    }
+
+
+}
